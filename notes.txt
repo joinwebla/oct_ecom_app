@@ -85,7 +85,6 @@ git
 
 
 3. Day to day
-
 	1. git status
 					1. Untracked Files / Modified - Red --- local but not origin
 					2. Staged - Green
@@ -98,3 +97,9 @@ git
 		Profile --> Settings --> DeveloperSettings --> PersonalAccessTokens
 
 	5. git checkout -b 'branch-name'
+			git add .
+			git commit -m "sfsa"
+			git push origin branch_name
+
+	6. git checkout master
+	7. git pull origin master
