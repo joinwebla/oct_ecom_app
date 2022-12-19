@@ -42,7 +42,7 @@ const Dashboard = () => {
 
 	return (
 		<>
-			<h1>Ecomm App</h1>
+			<h1>Ecommerce Application</h1>
 			<span className="btn btn-danger" onClick={handleLogout}>Logout</span>
 			<div style={{ position: 'fixed', top: 0, right: 0, margin: 10, backgroundColor: 'grey', padding: 10 }}>
 				<p>Total Products - 5</p>
