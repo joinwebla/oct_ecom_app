@@ -1,0 +1,51 @@
+
+5. useState
+6. useEffect
+1. useContext
+2. useRef
+3. useCallback - functions
+	* In general - in a functional component local variables reset every time when a prop or state changed.
+	* In that case, any function passed that is passed to the child components also will get reset.
+	* then the child compos will get rerender unneccessarly
+	_ to prevent we use useCallback
+4. useMemo - value
+	-
+
+1. useCallback - localVariables - function ----> useCallback - function
+2. useMemo - - localVariables - value ---> useMemo - value
+3. Fragment -- JSX to wrap the adjacent elements
+4. HOC - a higher order component - A component that recieves another component and adds additional properties to it
+==========
+5. type checking with prop types
+
+
+
+
+EcommApp
+
+1. Routing
+		Public Routes
+		Protected Routes
+		Redirection
+
+2. Session & Handling
+	 Cookie
+	 Token ---
+	 		LocalStorage
+			SessionStorage
+
+3. Forms & Validation
+4. Apicalls & Errors handling in apiCall
+
+ReactHooks
+HOC
+ErrorBoundary
+bootstrap
+lodash
+react-hook-form
+yup
+react-tostify
+react-router-dom
+react-paginate
+axios
+react-query
