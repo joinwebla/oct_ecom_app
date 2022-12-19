@@ -53,7 +53,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='App-header'>
         <ToastContainer />
         <RouterProvider router={router} />
       </div>
