@@ -49,3 +49,52 @@ react-router-dom
 react-paginate
 axios
 react-query
+
+
+
+create-react-app
+
+LocalComputer ---------> Server (Another Computer) (linux)
+RAM - 8GB
+ROM - 120GB
+OS - Windows
+
+
+LocalComputer -------> VersionControl -------> Server
+												1. Github
+												2. Gitlab
+												3. Bitbucket
+git
+
+
+
+
+
+1. Perform these once in a computer life time
+	1. git --version
+	2. Download
+	3. git config --global user.name Webla
+	4. git config --global user.email joinwebla@gmail.com
+  ========================================================
+
+
+2. Perform these once in a project
+	1. git init
+	2. git remote add origin https://github.com/joinwebla/oct_ecom_app.git
+	3. git remote -v
+
+
+3. Day to day
+
+	1. git status
+					1. Untracked Files / Modified - Red --- local but not origin
+					2. Staged - Green
+					3. Commit -
+	2. git add .
+	3. git commit -m "Initial commit"
+	4. git push origin <branch-name>
+		userName: joinwebla@gmail.com
+		password: <sdfsdfvsvs>
+		Profile --> Settings --> DeveloperSettings --> PersonalAccessTokens
+
+	5. git checkout -b 'branch-name'
